@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycling Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Recycling Challenge</h1>
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="progress">Progress: <span id="progress">0</span>/10</div>
+        
+        <div class="item-display" id="item-display">
+            <img id="item-image" src="" alt="Current item">
+            <p id="item-name"></p>
+        </div>
+        
+        <div class="buttons">
+            <button id="recyclable" class="btn recyclable-btn">Recyclable</button>
+            <button id="not-recyclable" class="btn not-recyclable-btn">Not Recyclable</button>
+            <button id="special" class="btn special-btn">Special Handling</button>
+        </div>
+        
+        <div id="feedback" class="feedback"></div>
+        
+        <button id="next-btn" class="next-btn">Next Item</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
